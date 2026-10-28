@@ -33,7 +33,7 @@ jobs:
       - name: Authenticate to Google Cloud
         uses: google-github-actions/auth@v3 # Use the latest stable major version
         with:
-          workload_identity_provider: /projects/1092851139093/locations/global/workloadIdentityPools/github/providers/githubprovider'
+          workload_identity_provider: '/projects/1092851139093/locations/global/workloadIdentityPools/github/providers/githubprovider'
           service_account: 'github-wif@project-f54eacb9-b4e5-40b9-b0c.iam.gserviceaccount.com'
 
       - name: Test Authentication (e.g., check gcloud version/account)
